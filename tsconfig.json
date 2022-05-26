@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      // 👇️ ... rest
+    },
+    "types": ["eslint-scope"]
+    // "include": ["src/**/*"],
+    // "exclude": ["node_modules", "src/**/*.spec.ts"]
+  }
