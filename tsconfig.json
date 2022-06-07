@@ -1,9 +1,11 @@
 {
+    // how the ts files are compiled
     "compilerOptions": {
+      "target": "ES6",
       "moduleResolution": "node",
       // 👇️ ... rest
     },
-    "types": ["eslint-scope"]
+    "types": ["eslint-scope"],
     // "include": ["src/**/*"],
-    // "exclude": ["node_modules", "src/**/*.spec.ts"]
+    "exclude": ["node_modules"], // would be the default
   }
