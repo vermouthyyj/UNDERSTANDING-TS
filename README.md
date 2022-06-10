@@ -160,6 +160,8 @@ combineValues = printResult // error!!! because the parameter type doesn't match
 
 ## tsconfig.json
 
+official documentations: https://www.typescriptlang.org/tsconfig
+
 ### SourceMap (simplifies debug)
 
 Enables the generation of sourcemap files. These files allow debuggers and other tools to display the original TypeScript source code when actually working with the emitted JavaScript files. Source map files are emitted as .js.map (or .jsx.map) files next to the corresponding .js output file.
